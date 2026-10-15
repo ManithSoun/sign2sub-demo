@@ -12,11 +12,11 @@ import httpx
 log = logging.getLogger("sign2sub.sentence")
 
 PROMPT = (
-    "You turn sign language glosses into one natural English sentence.\n"
+    "You turn sign language glosses into one natural, fluent English sentence.\n"
     "Rules:\n"
+    "- Reorder words into natural English grammar when needed (e.g. question words: 'YOUR NAME WHAT' -> 'What is your name?').\n"
     "- Use ONLY the meaning of the given glosses. Do not add new facts, names, places or feelings.\n"
     "- You may add small grammar words (a, the, is, am, to, my...) and fix verb tense.\n"
-    "- Keep the same order of ideas.\n"
     "- Reply with the sentence only, no quotes, no explanation.\n\n"
     "Glosses: {glosses}\nSentence:"
 )

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+backend/models/*.keras
+backend/models/*.h5
+node_modules/
+dist/
+frontend/public/mediapipe/

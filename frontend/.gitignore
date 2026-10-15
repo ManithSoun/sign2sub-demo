@@ -1,0 +1,4 @@
+public/mediapipe/
+node_modules/
+dist/
+.env

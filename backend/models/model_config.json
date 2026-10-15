@@ -1,0 +1,11 @@
+{
+  "seq_len": 30,
+  "features": [
+    "pose",
+    "face",
+    "left_hand",
+    "right_hand"
+  ],
+  "pose_visibility": true,
+  "normalize": "none"
+}
